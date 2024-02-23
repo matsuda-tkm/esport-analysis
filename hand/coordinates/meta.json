@@ -1,0 +1,22 @@
+﻿{
+    "hand_1": {
+        "fps": 60.0,
+        "num_frames": 35910
+    },
+    "hand_2": {
+        "fps": 60.0,
+        "num_frames": 35911
+    },
+    "sync_1": {
+        "fps": 60.0,
+        "num_frames": 35999
+    },
+    "sync_2": {
+        "fps": 60.0,
+        "num_frames": 35906
+    },
+    "sync_3": {
+        "fps": 60.0,
+        "num_frames": 35944
+    }
+}
