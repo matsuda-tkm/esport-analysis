@@ -44,3 +44,14 @@ python show_graphs.py --movie hand_1 --method distance --keypoints 4 20 --range 
 ```shell
 python show_graphs.py --movie hand_1 --method angle --keypoints 2 3 4 --range 0m0s 1m5s
 ```
+
+## Google Colabでの実行方法
+1. 以下のコマンドで本リポジトリをcloneする
+```bash
+!git clone https://github.com/matsuda-tkm/esport-analysis.git
+```
+2. 上記の実行方法に従ってコマンドを実行する（.pyのパス名に注意するだけ）
+```bash
+!python /content/esport-analysis/hand/show_graphs.py --movie hand_1 --method track --keypoints 0 --range 0m0s 1m5s
+```
+3. 結果は、左タブの「ファイル」内`esport-analysis`内に保存される。ランタイムを削除するとデータは消えるため、保管したい場合はダウンロードする。
